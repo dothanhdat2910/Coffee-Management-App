@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>manager</class>
+ <widget class="QMainWindow" name="manager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Quản lý</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton#btn_b1{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b1:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b1:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+
+QPushButton#btn_b2{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b2:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b2:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+
+
+
+QPushButton#btn_b3{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b3:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b3:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+QPushButton#btn_b4{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b4:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b4:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+
+QPushButton#btn_b5{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b5:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b5:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+
+QPushButton#btn_b6{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b6:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b6:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+
+QPushButton#btn_b7{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b7:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b7:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+QPushButton#btn_b8{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b8:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b8:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+QPushButton#btn_b9{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b9:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b9:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+
+QPushButton#btn_b10{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b10:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b10:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+QPushButton#btn_b11{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b11:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b11:hover{
+backgound-color: rgba(16, 30, 41,200);
+}
+
+QPushButton#btn_b12{
+background-color: rgba(16, 30, 41, 240);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b12:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(16, 30, 41,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b12:hover{
+backgound-color: rgba(16, 30, 41,200);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>711</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+border-radius: 5px;
+</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Bán hàng</string>
+     </attribute>
+     <widget class="QPushButton" name="btn_b1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>10</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>170</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 7</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b10">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>250</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 10</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b5">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>90</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 5</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b8">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>170</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 8</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b11">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>250</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 11</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b6">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>90</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 6</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b9">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>170</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 9</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b12">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>250</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 12</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b3">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>10</y>
+        <width>75</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>BÀN 3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_tt">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>330</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_tt{
+background-color: rgba(2, 65, 118, 255);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_tt:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(2, 65, 118,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_tt:hover{
+backgound-color: rgba(2, 65, 118,200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Thanh toán</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>11</y>
+        <width>251</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(16, 30, 41, 240)  ;
+color: rgba(255,255,255,200);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_add">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>10</y>
+        <width>75</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_add{
+background-color: rgba(2, 65, 118, 255);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_add:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(2, 65, 118,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_add:hover{
+backgound-color: rgba(2, 65, 118,200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>10</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(16, 30, 41, 240)  ;
+color: rgba(255,255,255,200);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_b">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>50</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;SDSD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="whatsThis">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(16, 30, 41, 240)  ;
+color: rgba(255,255,255,200);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_upd">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>330</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_upd{
+background-color: rgba(2, 65, 118, 255);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_upd:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(2, 65, 118,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_upd:hover{
+backgound-color: rgba(2, 65, 118,200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Cập nhật</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_xoa">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>330</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_xoa{
+background-color: rgba(2, 65, 118, 255);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_xoa:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(2, 65, 118,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_xoa:hover{
+backgound-color: rgba(2, 65, 118,200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Xóa bill</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_money">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>50</y>
+        <width>113</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(16, 30, 41, 240)  ;
+color: rgba(255,255,255,200);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>50</y>
+        <width>47</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Bàn</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>50</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Tổng tiền</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_b0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>330</y>
+        <width>255</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_b0{
+background-color: rgba(2, 65, 118, 255);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_b0:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(2, 65, 118,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_b0:hover{
+backgound-color: rgba(2, 65, 118,200);
+}</string>
+      </property>
+      <property name="text">
+       <string>MANG VỀ</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="table_bill">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>90</y>
+        <width>411</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableWidget{
+background-color: rgba(16, 30, 41, 240) ;
+color: rgba(255,255,255,200);
+padding: 2px
+}
+</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>Món</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Số lượng</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Đơn giá</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Chú thích</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+     </widget>
+     <zorder>btn_b2</zorder>
+     <zorder>btn_b4</zorder>
+     <zorder>btn_b7</zorder>
+     <zorder>btn_b10</zorder>
+     <zorder>btn_b5</zorder>
+     <zorder>btn_b8</zorder>
+     <zorder>btn_b11</zorder>
+     <zorder>btn_b6</zorder>
+     <zorder>btn_b9</zorder>
+     <zorder>btn_b12</zorder>
+     <zorder>btn_b3</zorder>
+     <zorder>btn_tt</zorder>
+     <zorder>comboBox</zorder>
+     <zorder>btn_add</zorder>
+     <zorder>spinBox</zorder>
+     <zorder>txt_b</zorder>
+     <zorder>btn_upd</zorder>
+     <zorder>btn_xoa</zorder>
+     <zorder>txt_money</zorder>
+     <zorder>label</zorder>
+     <zorder>label_2</zorder>
+     <zorder>btn_b0</zorder>
+     <zorder>btn_b1</zorder>
+     <zorder>table_bill</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Doanh thu</string>
+     </attribute>
+     <widget class="QTableWidget" name="table_bill_ngay">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>311</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>381</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableWidget{
+background-color: rgba(16, 30, 41, 240) ;
+color: rgba(255,255,255,200);
+padding: 2px
+}
+</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>Tài khoản</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Giờ</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Bill</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+     </widget>
+     <widget class="QTableWidget" name="table_bill_thang">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>10</y>
+        <width>201</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableWidget{
+background-color: rgba(16, 30, 41, 240) ;
+color: rgba(255,255,255,200);
+padding: 2px
+}
+</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>Ngày</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Tổng tiền</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="btn_add_2">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>170</y>
+        <width>93</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_add_2{
+background-color: rgba(2, 65, 118, 255);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_add_2:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(2, 65, 118,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_add_2:hover{
+backgound-color: rgba(2, 65, 118,200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Thêm</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Menu</string>
+     </attribute>
+     <widget class="QTableWidget" name="table_menu">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>10</y>
+        <width>221</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableWidget{
+background-color: rgba(16, 30, 41, 240) ;
+color: rgba(255,255,255,200);
+padding: 2px
+}
+</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>Món</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Giá</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>130</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Tên món:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>180</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Giá: </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_upd_menu">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>240</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_upd_menu{
+background-color: rgba(2, 65, 118, 255);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_upd_menu:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(2, 65, 118,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_upd_menu:hover{
+backgound-color: rgba(2, 65, 118,200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Cập nhật</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>60</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Cập nhật Menu</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_menu">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>290</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_drink">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>130</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(16, 30, 41, 240)  ;
+color: rgba(255,255,255,200);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_unit">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>180</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(16, 30, 41, 240)  ;
+color: rgba(255,255,255,200);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Quản lý nhân viên</string>
+     </attribute>
+     <widget class="QPushButton" name="btn_logout">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>270</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_logout{
+background-color: rgba(2, 65, 118, 255);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_logout:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(2, 65, 118,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_logout:hover{
+backgound-color: rgba(2, 65, 118,200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Đăng xuất</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Tên:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>SĐT:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>ID:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Mật khẩu:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_name">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>80</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(16, 30, 41, 240)  ;
+color: rgba(255,255,255,200);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_phone">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>130</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(16, 30, 41, 240)  ;
+color: rgba(255,255,255,200);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_id">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>180</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(16, 30, 41, 240)  ;
+color: rgba(255,255,255,200);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_pass">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>230</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(16, 30, 41, 240)  ;
+color: rgba(255,255,255,200);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_add_acc">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>270</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btn_add_acc{
+background-color: rgba(2, 65, 118, 255);
+color: rgba(255,255,255,200);
+border-radius: 5px;
+}
+QPushButton#btn_add_acc:pressed{
+padding-left: 5px;
+padding-top: 5px;
+background-color: rgba(2, 65, 118,100);
+backgound-posotion:calc(100%-10px)center;
+}
+QPushButton#btn_add_acc:hover{
+backgound-color: rgba(2, 65, 118,200);
+}</string>
+      </property>
+      <property name="text">
+       <string>Tạo</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="table_acc">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>10</y>
+        <width>421</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableWidget{
+background-color: rgba(16, 30, 41, 240) ;
+color: rgba(255,255,255,200);
+padding: 2px
+}
+</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>Tên</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>SDT</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Mật khẩu</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>20</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Tạo tài khoản</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_acc">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>310</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
